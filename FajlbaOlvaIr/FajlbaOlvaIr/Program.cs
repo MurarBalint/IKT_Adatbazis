@@ -29,9 +29,9 @@ namespace FajlbaOlvaIr
             ff.WriteLine("INSERT INTO Auto_tipus (id,tipus,gyartasiev,marka) VALUES");
             for (int i = 0; i < autotipusok.Count-1; i++)
             {
-                ff.WriteLine("({0},'{1}',{2},'{3}'),", autotipusok[i].id, autotipusok[i].tipus, autotipusok[i].evszam, autotipusok[i].marka);
+                ff.WriteLine("('{0}',{1},'{2}'),",  autotipusok[i].tipus, autotipusok[i].evszam, autotipusok[i].marka);
             }
-            ff.WriteLine("({0},'{1}',{2},'{3}');", autotipusok[autotipusok.Count-1].id, autotipusok[autotipusok.Count-1].tipus, autotipusok[autotipusok.Count-1].evszam, autotipusok[autotipusok.Count-1].marka);
+            ff.WriteLine("('{0}',{1},'{2}');", , autotipusok[autotipusok.Count-1].tipus, autotipusok[autotipusok.Count-1].evszam, autotipusok[autotipusok.Count-1].marka);
             ff.WriteLine();
             ff.Close();
 
@@ -51,8 +51,8 @@ namespace FajlbaOlvaIr
             {
                 
                 string[] asd = f.ReadLine().Split(',');
-                if(i<49) ff.WriteLine("({0},'{1}'),", asd[0],asd[1]);
-                else ff.WriteLine("({0},'{1}');", asd[0], asd[1]);
+                if(i<49) ff.WriteLine("('{0}'),", asd[1]);
+                else ff.WriteLine("('{0}');",  asd[1]);
                 i++;
             }
             //ff.WriteLine("('{0}','{1}');",asd[0]);
