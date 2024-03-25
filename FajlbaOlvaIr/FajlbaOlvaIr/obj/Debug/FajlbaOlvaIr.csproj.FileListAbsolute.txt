@@ -1,0 +1,9 @@
+H:\IKT\IKT_Adatbaz\IKT_Adatbazis\FajlbaOlvaIr\FajlbaOlvaIr\bin\Debug\FajlbaOlvaIr.exe.config
+H:\IKT\IKT_Adatbaz\IKT_Adatbazis\FajlbaOlvaIr\FajlbaOlvaIr\bin\Debug\FajlbaOlvaIr.exe
+H:\IKT\IKT_Adatbaz\IKT_Adatbazis\FajlbaOlvaIr\FajlbaOlvaIr\bin\Debug\FajlbaOlvaIr.pdb
+H:\IKT\IKT_Adatbaz\IKT_Adatbazis\FajlbaOlvaIr\FajlbaOlvaIr\obj\Debug\FajlbaOlvaIr.csproj.AssemblyReference.cache
+H:\IKT\IKT_Adatbaz\IKT_Adatbazis\FajlbaOlvaIr\FajlbaOlvaIr\obj\Debug\FajlbaOlvaIr.csproj.CoreCompileInputs.cache
+H:\IKT\IKT_Adatbaz\IKT_Adatbazis\FajlbaOlvaIr\FajlbaOlvaIr\obj\Debug\FajlbaOlvaIr.exe
+H:\IKT\IKT_Adatbaz\IKT_Adatbazis\FajlbaOlvaIr\FajlbaOlvaIr\obj\Debug\FajlbaOlvaIr.pdb
+D:\Progi\Adatbaziskezeles\IKT_Adatbazis\IKT_Adatbazis\FajlbaOlvaIr\FajlbaOlvaIr\obj\Debug\FajlbaOlvaIr.exe
+D:\Progi\Adatbaziskezeles\IKT_Adatbazis\IKT_Adatbazis\FajlbaOlvaIr\FajlbaOlvaIr\obj\Debug\FajlbaOlvaIr.pdb
