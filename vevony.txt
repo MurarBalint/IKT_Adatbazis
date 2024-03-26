@@ -65,7 +65,7 @@ Reggy,Nutton,rnutton1r@parallels.com,54660247131,17
 Clarabelle,Callery,ccallery1s@narod.ru,77098988918,47
 Murdock,Labb,mlabb1t@slideshare.net,80592192266,24
 Massimiliano,Byne,mbyne1u@360.cn,95171952313,7
-Riccardo,Gara,rogara1v@slideshare.net,39023606172,32
+Riccardo,O' Gara,rogara1v@slideshare.net,39023606172,32
 Athene,Ranns,aranns1w@slashdot.org,91149310341,20
 Karlotta,Bagot,kbagot1x@arstechnica.com,95855678687,43
 Sybila,Gaishson,sgaishson1y@storify.com,62119440724,50
@@ -181,11 +181,7 @@ Bailie,Stitwell,bstitwell4z@dion.ne.jp,98220203486,22
 Titos,Robinet,trobinet50@google.de,51152846185,49
 Clemmy,Pelcheur,cpelcheur51@youku.com,56731068755,42
 Hall,Louedey,hlouedey52@wikia.com,28414215826,23
-<<<<<<< HEAD
-Adham,Heagertie,aoheagertie53@taobao.com,71950529292,40
-=======
 Adham,O'Heagertie,aoheagertie53@taobao.com,71950529292,40
->>>>>>> 509a06eb04b6028a4f5ba5fe0f85e87a7933c6cf
 Candida,Aspel,caspel54@ucla.edu,65164243525,24
 Virginia,Lissandrini,vlissandrini55@mysql.com,74338082084,32
 Bridie,Ruppel,bruppel56@php.net,35987028155,2
