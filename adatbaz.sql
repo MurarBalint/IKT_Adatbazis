@@ -1,4 +1,5 @@
 Create database Autoker;
+USE Autoker;
 
 Create Table Varos(
     id int auto_increment Primary key,
@@ -8,7 +9,7 @@ Create Table Varos(
 Create Table Auto_tipus(
     id int auto_increment Primary key,
     tipus Varchar(50) NOT NULL,
-    gyartasiev Varchar(50) NOT NULL,
+    gyartasiev INT NOT NULL,
     marka Varchar(30) NOT NULL
 );
 
@@ -20,7 +21,7 @@ Create Table Elado(
     Foreign key (hely_id) references Varos(id) 
 );
 
-Create Table Vevo(
+Create Table Vasarlo(
     lakhely_id int,
     email Varchar(100) NOT NULL,
     nev Varchar(60) NOT NULL,
@@ -42,7 +43,7 @@ Create Table Eladasok(
     vevo_azon char(11),
     elado_azon char(11),
     Foreign key (auto_azon) references Autok(alvazszam),
-    Foreign key (vevo_azon) references Vevo(telefonszam),
+    Foreign key (vevo_azon) references Vasarlo(telefonszam),
     Foreign key (elado_azon) references Elado(telefonszam) 
 );
 
