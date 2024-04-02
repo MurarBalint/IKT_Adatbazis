@@ -3,8 +3,13 @@
 3. Listázd ki azoknak az autóknak a rendszámát amik 2M és 5M összeg közözzött megtalálhatóak a piacon.
 4.Kik azok a vásárlók akik neve pontosan 10 karakter, szóközt is beleértve.
 5. Kik azok az autó tulajdonosok akik Debrecenben laknak.
-6. Számítsd ki, hogy az egyes autók hány éve kászültek, majd rendezd őket növekvő sorrendbe.
+6. Az eladókat rendezd ABC sorrendbe a nevük alapján
 7. Listázd ki, hogy mely márlák készültek 2002-ben, ne szerepeljen egy márka kétszer.
 8. A BMW autómárka 15%-kal drágult frissítsd-e szerint az adatbázist.
 9. A JTEBU5JR0B5191511 alvázszámú gépjárművet kivonták a forgalomból, töröld az egész rekordot.
 10. A 35594412841 telefonszámó vásárló lakhelyet változtatott így ismeretlenné vált az.
+11. Számítsd ki, hogy az egyes autók hány éve kászültek, majd rendezd őket növekvő sorrendbe.
+12. Módosítsd Jenelle Jenton nevú eladó emailcímét 
+13. Listázd ki azokat az audikat amik 5milliónál drágábbak
+14. Írj egy lekérdezést, amely megadja, hogy minden városban hány vásárló van az adatbázisban.
+15. Írj egy lekérdezést, amely meghatározza a legdrágább autót az adatbázisban, és kiírja annak minden részletét.

@@ -22,10 +22,10 @@ WHERE CHAR_LENGTH(nev) = 10;
 SELECT *
 FROM elado JOIN varos ON elado.hely_id = varos.id && varos.nev = "Debrecen";
 
-6. Számítsd ki, hogy az egyes autók hány éve kászültek, majd rendezd őket növekvő sorrendbe.
-SELECT *, YEAR(CURRENT_DATE()) - auto_tipus.gyartasiev AS évesek
-FROM autok JOIN auto_tipus ON autok.tipus_id = auto_tipus.id
-ORDER BY évesek ASC;
+6. Az eladókat rendezd ABC sorrendbe a nevük alapján
+SELECT *
+FROM Elado
+ORDER BY nev;
 
 7. Listázd ki, hogy mely márlák készültek 2002-ben, ne szerepeljen egy márka kétszer.
 SELECT DISTINCT marka
@@ -45,3 +45,32 @@ WHERE autok.alvazszam = "JTEBU5JR0B5191511";
 UPDATE vasarlo
 SET lakhely_id= null
 WHERE telefonszam = 35594412841;
+
+11. Számítsd ki, hogy az egyes autók hány éve kászültek, majd rendezd őket növekvő sorrendbe.
+SELECT *, YEAR(CURRENT_DATE()) - auto_tipus.gyartasiev AS évesek
+FROM autok JOIN auto_tipus ON autok.tipus_id = auto_tipus.id
+ORDER BY évesek ASC;
+
+12. Módosítsd Jenelle Jenton nevú eladó emailcímét 
+UPDATE Elado
+SET email = "jenelle.jenton@gmail.com"
+WHERE nev = "Jenelle Jenton";
+
+13. Listázd ki azokat az audikat amik 5milliónál drágábbak
+SELECT *
+FROM autok JOIN auto_tipus ON autok.tipus_id = auto_tipus.id
+WHERE auto_tipus.marka = "Audi" && ar>5000000;
+
+14. Írj egy lekérdezést, amely megadja, hogy minden városban hány vásárló van az adatbázisban.
+SELECT v.nev AS Varos, COUNT(*) AS VasarlokSzama
+FROM Varos v
+LEFT JOIN Vasarlo va ON v.id = va.lakhely_id
+GROUP BY v.nev;
+
+15. Írj egy lekérdezést, amely meghatározza a legdrágább autót az adatbázisban, és kiírja annak minden részletét.
+SELECT auto.*
+FROM Autok auto
+INNER JOIN (
+    SELECT MAX(ar) AS MaxAr
+    FROM Autok
+) max_ar ON auto.ar = max_ar.MaxAr;
